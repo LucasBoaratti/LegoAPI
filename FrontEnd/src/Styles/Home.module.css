@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+.boasVindas {
+    @apply text-[35px] text-center mt-[15px];
+}
+
+.descricao {
+    @apply text-center text-[20px] mt-[20px];
+}
+
+.personagens {
+    @apply flex justify-between items-center my-[50px] px-[20px];
+}
+
+.fileiraCards {
+    @apply flex flex-wrap justify-center gap-[30px];
+}
+
+.cardPersonagem {
+    @apply flex flex-col justify-between items-center w-[400px] h-[auto] bg-[red] p-[15px] rounded-[25px] leading-[30px] text-[white];   
+}
+
+.cardPersonagem h2 {
+    @apply text-[25px];
+}
+
+.cardPersonagem img {
+    @apply rounded-[25px];
+}
+
+.botoes {
+    @apply flex justify-around items-center gap-[30px];
+}
+
+.botoes button {
+    @apply rounded-[25px] bg-[yellow] text-[black] mt-[20px] cursor-pointer px-[8px] py-[3px] hover:bg-[black] hover:text-[white] transition-colors duration-100 ease-in;
+}

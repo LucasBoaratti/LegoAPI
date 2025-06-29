@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+header {
+    @apply bg-[#050505];
+}
+
+.cabecalho {
+    @apply flex justify-around items-center text-white text-[25px] p-[20px];
+}
+
+.cabecalho img {
+    @apply rounded-[25px];
+}
