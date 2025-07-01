@@ -98,6 +98,12 @@ E pronto! Agora é só usar a API a vontade :D
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="70px" height="70px"/>
 </div>
 
+## Banco de dados
+
+<div style="display: flex;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="70px" height="70px"/>
+</div>
+
 ## Ferramentas e tecnologias
 
 <div style="display: flex;">
