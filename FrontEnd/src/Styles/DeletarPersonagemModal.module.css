@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+.conteudoPrincipal {
+    @apply flex flex-col justify-center items-center min-h-screen z-[1000] fixed top-0 left-0 w-full;
+    background-color: #FFFF0080 
+}
+
+.modal {
+    @apply bg-[red] p-8 rounded-[25px] text-[white];
+}
+
+.modal p {
+    @apply text-[20px];
+}
+
+.botoes {
+    @apply flex justify-evenly items-center;
+}
+
+.botoes button {
+    @apply rounded-[25px] bg-[yellow] text-[black] w-[70px] h-[35px] mt-[20px] cursor-pointer px-[8px] py-[3px] hover:bg-[black] hover:text-[white] transition-colors duration-100 ease-in;
+}

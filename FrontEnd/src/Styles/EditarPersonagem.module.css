@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.conteudoPricipal {
+    @apply flex flex-col justify-center items-center min-h-screen;
+}
+
+.formulario {
+    @apply bg-[red] p-8 text-[white] rounded-[25px] w-[720px] my-[80px];
+}
+
+.formulario h1 {
+    @apply text-[35px] text-center my-[20px];
+}
+
+.formulario label {
+    @apply text-[25px];
+}
+
+.formulario input {
+    @apply bg-[white] w-[100%] h-[35px] text-[black] text-[18px] px-[3px] my-[7px];
+}
+
+.formulario select {
+    @apply bg-[white] text-[black] h-[30px];
+}
+
+.botao {
+    @apply text-center;
+}
+
+.botao button {
+    @apply rounded-[25px] bg-[yellow] text-[black] w-[70px] h-[35px] mt-[20px] cursor-pointer px-[8px] py-[3px] hover:bg-[black] hover:text-[white] transition-colors duration-100 ease-in;
+}

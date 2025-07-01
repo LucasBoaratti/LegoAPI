@@ -8,6 +8,14 @@
     @apply text-center text-[20px] mt-[20px];
 }
 
+.botao {
+    @apply text-center mt-[20px];
+}
+
+.botao button {
+    @apply rounded-[25px] bg-[red] text-[white] mt-[20px] h-[40px] cursor-pointer px-[8px] py-[3px] hover:bg-[black] hover:text-[white] transition-colors duration-100 ease-in;
+}
+
 .personagens {
     @apply flex justify-between items-center my-[50px] px-[20px];
 }
