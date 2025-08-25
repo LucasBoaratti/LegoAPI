@@ -1,94 +1,88 @@
-# LegoAPI
+# 🧱 LegoLucas 🧱
 
-Uma API de personagens de Lego feita em FastAPI e React.
+#### A LegoLucas é uma API de personagens de Lego desenvolvida em FrontEnd e BackEnd, permitindo a criação de personagens novos ou existentes de Lego.
 
-## Como utilizar a API
+# 🖥️ Como utilizar a API 🖥️
 
-### BackEnd
-1. Baixe a API clicando em code e vá em Download ZIP;
+1. Clique no botão Code e copia a URL do projeto:
 
-2. Após baixar os arquivos, retire-os do arquivo ZIP;
+```bash
+https://github.com/nome_usuario/projeto.git
+```
 
-3. Agora, abra o VSCode e abra o arquivo;
+2. Abra o Prompt de comando (ou PowerShell ou GitBash) em sua área de trabalho ou em documentos e realize o seguinte comando:
 
-4. Após abrir o VSCode, abra um terminal e acesse a pasta BackEnd:
+OBS: Certifique que o Git está instalado no seu computador. Caso não esteja, instale aqui: [Git](https://git-scm.com/downloads)
 
-```python
+```bash 
+git clone https://github.com/nome_usuario/projeto.git
+```
+
+3. Agora, entre no VSCode:
+
+```bash
+code .
+```
+
+4. Após entrar no VSCode, abra o terminal com CTRL + J ou CTRL+ ' e acesse a pasta BackEnd:
+
+```bash
 cd .\BackEnd\
 ```
 
-5. Depois crie o ambiente virtual:
+5. Instale o ambiente virtual do Python (venv):
 
-```python
-python -m venv .venv
+```bash
+py -m venv .venv
 ```
 
-6. Acesse a pasta do ambiente virtual:
+6. Agora, ative o ambiente virtual:
 
-```python
+```bash
 .\.venv\Scripts\activate
 ```
 
-7. Instale as bibliotecas necessárias:
+7. Instale as bibliotecas pendentes com o arquivo requirements.txt:
 
-```python
-pip install -r requirements.txt
+```bash
+pip install -r .\requirements.txt
 ```
 
-Antes de ir para o próximo passo, coloque o seu usuário e sua senha do seu banco de dados MySQL em Configs.py (Caminho do Configs.py: BackEnd\Core\Configs.py
+8. Rode o servidor com o Uvicorn:
 
-```python
-DB_URL: str = "mysql+asyncmy://{usuario_bd}:{senha_usuario_bd}@127.0.0.1:3306/lego"
-```
-
-OBS: 
-
-Troque usuario_bd pelo seu usuário do banco de dados MySQL. (Normalmente é root ou admin)
-
-Troque senha_usuario_bd pela sua senha do banco de dados MySQL.
-
-8. Agora rode o servidor:
-
-```python
+```bash
 uvicorn Main:app
 ```
 
-### FrontEnd
+9. Agora, abra outro terminal no botão + e acesse a pasta FrontEnd:
 
-9. Agora, acessa a pasta FrontEnd:
-
-```node
+```bash
 cd .\FrontEnd\
 ```
 
 10. Instale a pasta node_modules:
 
-```node
+```bash
 npm install
 ```
 
-11. Instale as bibliotecas necessárias: (Elas provavelmente virão instaladas já, mas é melhor instalar de novo 😅)
+11. Agora, rode o servidor:
 
-```node
-npm install axios react-hook-form zod @hookform/resolvers react-router-dom tailwindcss @tailwindcss/vite postcss autoprefixer @tailwindcss/postcss
-```
-
-12. Rode o servidor:
-
-```node
+```bash
 npm run dev
 ```
 
-E pronto! Agora é só usar a API a vontade :D
+#### E pronto! Agora você pode usar a LegoLucas e criar seus personagens de lego :D
 
-# Linguagens e tecnologias utilizadas
+# ⚒️ Linguagens/tecnologias utilizadas ⚒️
 
 ## FrontEnd
 
 <div style="display: flex;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="70px" height="70px"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" width="70px" height="70px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML" width="70px" height="70px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="70px" height="70px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS" width="70px" height="70px" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" width="70px" height="70px"/>
 </div>
 
 ## BackEnd
@@ -109,4 +103,5 @@ E pronto! Agora é só usar a API a vontade :D
 <div style="display: flex;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="Vite" width="70px" height="70px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" alt="Canva" width="70px" height="70px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node" width="70px" height="70px" />
 </div>
