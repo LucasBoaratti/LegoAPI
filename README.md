@@ -24,55 +24,55 @@ git clone https://github.com/LucasBoaratti/LegoLucas.git
 cd .\LegoLucas
 ```
 
-3. Agora, entre no VSCode:
+4. Agora, entre no VSCode:
 
 ```bash
 code .
 ```
 
-4. Após entrar no VSCode, abra o terminal com CTRL + J ou CTRL+ ' e acesse a pasta BackEnd:
+5. Após entrar no VSCode, abra o terminal com CTRL + J ou CTRL+ ' e acesse a pasta BackEnd:
 
 ```bash
 cd .\BackEnd\
 ```
 
-5. Instale o ambiente virtual do Python (venv):
+6. Instale o ambiente virtual do Python (venv):
 
 ```bash
 py -m venv .venv
 ```
 
-6. Agora, ative o ambiente virtual:
+7. Agora, ative o ambiente virtual:
 
 ```bash
 .\.venv\Scripts\activate
 ```
 
-7. Instale as bibliotecas pendentes com o arquivo requirements.txt:
+8. Instale as bibliotecas pendentes com o arquivo requirements.txt:
 
 ```bash
 pip install -r .\requirements.txt
 ```
 
-8. Rode o servidor com o Uvicorn:
+9. Rode o servidor com o Uvicorn:
 
 ```bash
 uvicorn Main:app
 ```
 
-9. Agora, abra outro terminal no botão + e acesse a pasta FrontEnd:
+10. Agora, abra outro terminal no botão + e acesse a pasta FrontEnd:
 
 ```bash
 cd .\FrontEnd\
 ```
 
-10. Instale a pasta node_modules:
+11. Instale a pasta node_modules:
 
 ```bash
 npm install
 ```
 
-11. Agora, rode o servidor:
+12. Agora, rode o servidor:
 
 ```bash
 npm run dev
